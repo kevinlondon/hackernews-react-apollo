@@ -6,7 +6,7 @@ import './styles/index.css';
 import { ApolloProvider, createNetworkInterface, ApolloClient } from 'react-apollo'
 
 const networkInterface = createNetworkInterface({
-  uri: '__SIMPLE_API_ENDPOINT__',
+  uri: 'https://api.graph.cool/simple/v1/cj8202z9w00500100ki2eclj8',
 })
 
 const client = new ApolloClient({
